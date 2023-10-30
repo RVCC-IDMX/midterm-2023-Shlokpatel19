@@ -1,0 +1,89 @@
+
+body, h1, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0059ff65;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .link{
+    color: rgba(7, 29, 109, 0.695);
+  }
+  .slider {
+    display:flex;
+    justify-content: space-between;
+  }
+.images {
+    display: inline-block;
+}
+
+ 
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #681515;
+  }
+  .logo{
+    max-width: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+   /* color: rgb(50, 123, 70);*/
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  .review {
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  /* Review styles */
+  #reviews {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  blockquote {
+    color: #21bd65e6;
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    top: 1000px;
+  right: 5px;
+  left: 5px;
+  width: 1500px;
+  height: 10px;
+
+    position: relative;
+  }
+  
+
+  
